@@ -17,11 +17,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 60px;
     padding-bottom: 40px; }
 
-    nav a{
+   #header nav a{
         color: #fff;
         text-decoration: none;
         padding: 7px 25px;
         display: inline-block;
+        display: flex; 
+        flex-direction: column; 
     }
     .container p{
         line-height: 200px; }
@@ -35,14 +37,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   .f
     .fixed-header{
-      top: 0;
+      top: 10;
   }
   .fixed-footer{
       bottom: 0;
 }
 
 #header img {
-    height: 300px;
+    height: 100px;
 }
 
 /* The Book Section */
@@ -59,3 +61,16 @@ h1, h2, h3, h4, h5, h6 {
     max-width:50%;
     height: auto;
 }
+
+@media screen {
+min-width: 60 em
+ display:grid;
+grid-template-columns: 2fr 1fr;
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+margin-left: 1rem;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+display: none; }
