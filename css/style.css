@@ -32,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 #header img {
     width: 100% !important;
     height: auto !important;
+    /* why won't it resize? i've tried everything i could think of D: */
 }
 
 /* The Book Section */
