@@ -17,7 +17,7 @@ header {
 }
 
 #header img {
-    width: 350px;
+    width: 150px;
 }
 
 /* The Book Section */
@@ -30,5 +30,5 @@ header {
 }
 
 #cover img {
-    width: 350px;
+    width: 50px;
 }
