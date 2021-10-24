@@ -8,6 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Zen Antique Soft', serif;
     font-size:2rem;
+    font-weight:300;
     color: #000000;
     text-align: left;
     
@@ -28,7 +29,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 #header img {
-    max-height: 100px;
+    width: 100%;
+    height: auto;
 }
 
 /* The Book Section */
@@ -50,10 +52,12 @@ h1, h2, h3, h4, h5, h6 {
         -moz-column-rule: 1px solid rgba(118,87,41,0.38);
         column-rule: 1px solid rgba(118,87,41,0.38);
         }
+        /* tried to use someone else's code because my attempts weren't
+        working but this didn't work either so https://html-css-js.com/css/generator/column/ */
 
 #cover img 
 {
-    max-width:50%;
-    height: auto;
+    max-width:50% !important;
+    height: 50% !important;
 }
 
