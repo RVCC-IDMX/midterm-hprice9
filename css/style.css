@@ -14,6 +14,22 @@ h1, h2, h3, h4, h5, h6 {
 
 #header {
     text-align: left;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    
+    .fixed-header, .fixed-footer{
+      width: 100%;
+      position: fixed;        
+      background: #333;
+      padding: 10px 0;
+      color: #fff;
+  }
+  .f
+    .fixed-header{
+      top: 0;
+  }
+  .fixed-footer{
+      bottom: 0;
 }
 
 #header img {
