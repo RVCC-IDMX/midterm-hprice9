@@ -1,3 +1,5 @@
+/* Journey to the Center of the Earth Practicum */
+/* Heather Price */
 body {
     background-color: #886644;
     color: #000000;
@@ -27,21 +29,6 @@ h1, h2, h3, h4, h5, h6 {
     }
     .container p{
         line-height: 200px; }
-    
-    .fixed-header, .fixed-footer{
-      width: 100%;
-      position: fixed;        
-      background: #333;
-      padding: 10px 0;
-      color: #fff;
-  }
-  .f
-    .fixed-header{
-      top: 10;
-  }
-  .fixed-footer{
-      bottom: 0;
-}
 
 #header img {
     height: 100px;
@@ -61,16 +48,3 @@ h1, h2, h3, h4, h5, h6 {
     max-width:50%;
     height: auto;
 }
-
-@media screen {
-min-width: 60 em
- display:grid;
-grid-template-columns: 2fr 1fr;
-display:flex;
-justify-content: center;
-align-items: center;
-font-size: 2rem;
-margin-left: 1rem;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-display: none; }
