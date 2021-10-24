@@ -1,0 +1,29 @@
+body {
+    background-color: #886644;
+    color: #000000;
+    font-family: 'Zen Antique Soft', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Zen Antique Soft', serif;
+    font-size:4rem;
+    color: #000000;
+    text-align: right;
+    
+}
+
+header {
+    text-align: right;
+}
+/* The Book Section */
+#book, footer {
+    text-align: right;
+    background: #4F85B8;
+    color: #4E5D6B;
+    padding:10px;
+
+}
+
+#book img {
+    width: 350px;
+}
