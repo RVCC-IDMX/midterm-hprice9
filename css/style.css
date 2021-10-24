@@ -2,6 +2,7 @@ body {
     background-color: #886644;
     color: #000000;
     font-family: 'Zen Antique Soft', serif;
+    margin-left: 10rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The Book Section */
 #cover, footer {
+    border-top: 2px solid #765729;
     text-align: left;
     background: #886644;
     color: #000000;
@@ -62,15 +64,3 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
 }
 
-@media screen {
-min-width: 60 em
- display:grid;
-grid-template-columns: 2fr 1fr;
-display:flex;
-justify-content: center;
-align-items: center;
-font-size: 2rem;
-margin-left: 1rem;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-display: none; }
