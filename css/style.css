@@ -6,23 +6,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Zen Antique Soft', serif;
-    font-size:4rem;
+    font-size:2rem;
     color: #000000;
-    text-align: right;
+    text-align: left;
     
 }
 
 header {
-    text-align: right;
+    text-align: left;
 }
 
 #header img {
-    width: 500px;
+    width: 350px;
 }
 
 /* The Book Section */
 #cover, footer {
-    text-align: right;
+    text-align: left;
     background: #F9EAD8;
     color: #000000;
     padding:10px;
