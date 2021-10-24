@@ -15,7 +15,16 @@ h1, h2, h3, h4, h5, h6 {
 #header {
     text-align: left;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; }
+
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+    .container p{
+        line-height: 200px; }
     
     .fixed-header, .fixed-footer{
       width: 100%;
@@ -39,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 /* The Book Section */
 #cover, footer {
     text-align: left;
-    background: #F9EAD8;
+    background: #886644;
     color: #000000;
     padding:10px;
 
