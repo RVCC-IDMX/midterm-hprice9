@@ -16,14 +16,14 @@ header {
     text-align: right;
 }
 /* The Book Section */
-#book, footer {
+#cover, footer {
     text-align: right;
-    background: #4F85B8;
-    color: #4E5D6B;
+    background: #F9EAD8;
+    color: #000000;
     padding:10px;
 
 }
 
-#book img {
+#cover img {
     width: 350px;
 }
